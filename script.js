@@ -412,9 +412,9 @@ const gameData = [
             "storage": "18 GB available space"
         },
         "images": [
-            "https://upload.wikimedia.org/wikipedia/en/6/6f/Bus_Simulator_21_cover.jpg",
-            "https://via.placeholder.com/1920x1080/FFA500/FFFFFF?text=Bus+Simulator+21+Screenshot+1",
-            "https://via.placeholder.com/1920x1080/FFA500/FFFFFF?text=Bus+Simulator+21+Screenshot+2"
+            "https://stillalive.games/images/game-headers/bs21_slider_hu48ed618371f8ca272afe239601b59935_3772253_1280x0_resize_box_3.png",
+            "https://m.media-amazon.com/images/I/71X2z4Lx2FL.jpg",
+            "https://www.bussimulator.com/img/news/0005/slider5-03.jpg"
         ],
 
         "downloadLinks": [
