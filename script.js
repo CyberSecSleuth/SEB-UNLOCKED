@@ -738,7 +738,9 @@ function closePopup() {
 // Download functionality
 function initiateDownload(gameTitle, partNumber) {
     const partLink = currentGame.downloadLinks[partNumber - 1];
+    const tgLink = currentGame.tgLink || 'https://t.me/exampleChannel'; // Default Telegram link if not specified
     if (partLink) {
+        // Start the download process
         const anchor = document.createElement('a');
         anchor.href = partLink;
         anchor.target = "_blank"; // Open the link in a new tab
@@ -746,11 +748,113 @@ function initiateDownload(gameTitle, partNumber) {
         document.body.appendChild(anchor);
         anchor.click();
         document.body.removeChild(anchor);
+
+        // Show the popup after initiating the download
+        setTimeout(() => showDownloadPopup(tgLink), 1000); // Slight delay for better UX
     } else {
         alert(`Download link for ${gameTitle} - Part ${partNumber} is not available.`);
     }
 }
 
+function showDownloadPopup(tgLink) {
+    // Create the popup overlay
+    const popupOverlay = document.createElement('div');
+    popupOverlay.style.position = 'fixed';
+    popupOverlay.style.top = 0;
+    popupOverlay.style.left = 0;
+    popupOverlay.style.width = '100%';
+    popupOverlay.style.height = '100%';
+    popupOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    popupOverlay.style.zIndex = 1000;
+    popupOverlay.style.display = 'flex';
+    popupOverlay.style.justifyContent = 'center';
+    popupOverlay.style.alignItems = 'center';
+
+    // Create the popup content
+    const popupContent = document.createElement('div');
+    popupContent.style.backgroundColor = '#fff';
+    popupContent.style.padding = '20px';
+    popupContent.style.borderRadius = '10px';
+    popupContent.style.textAlign = 'center';
+    popupContent.style.maxWidth = '400px';
+    popupContent.style.width = '90%';
+
+    // Add the message
+    const message = document.createElement('p');
+    message.textContent =
+        'If you are facing any difficulty in downloading game files, please join our TELEGRAM Channel which provides all game files to be downloaded at great speed.';
+    message.style.marginBottom = '20px';
+    message.style.color = '#333';
+    message.style.fontSize = '16px';
+
+    // Create the Telegram button
+    const telegramButton = document.createElement('button');
+    telegramButton.className = 'telegram'; // Apply the Uiverse.io styles
+    telegramButton.innerHTML = `
+        <svg
+            style="fill:#FFFFFF;"
+            class="telegram-svg"
+            viewBox="0,0,256,256"
+            y="0px"
+            x="0px"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <g
+                style="mix-blend-mode: normal"
+                text-anchor="none"
+                font-size="none"
+                font-weight="none"
+                font-family="none"
+                stroke-dashoffset="0"
+                stroke-dasharray=""
+                stroke-miterlimit="10"
+                stroke-linejoin="miter"
+                stroke-linecap="butt"
+                stroke-width="1"
+                stroke="none"
+                fill-rule="nonzero"
+                fill="#ffffff"
+            >
+                <g transform="scale(5.12,5.12)">
+                    <path
+                        d="M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z"
+                    ></path>
+                </g>
+            </g>
+        </svg>
+        <span class="telegram-text">Telegram</span>
+    `;
+    telegramButton.onclick = () => window.open(tgLink, '_blank'); // Redirect to the Telegram link
+
+    // Add a close button
+    const closeButton = document.createElement('button');
+    closeButton.textContent = 'Close';
+    closeButton.style.marginTop = '20px';
+    closeButton.style.padding = '10px 20px';
+    closeButton.style.backgroundColor = '#ff0000';
+    closeButton.style.color = '#fff';
+    closeButton.style.border = 'none';
+    closeButton.style.borderRadius = '5px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.transition = 'background-color 0.3s ease';
+
+    closeButton.onmouseover = () => (closeButton.style.backgroundColor = '#cc0000');
+    closeButton.onmouseout = () => (closeButton.style.backgroundColor = '#ff0000');
+
+    closeButton.onclick = () => {
+        document.body.removeChild(popupOverlay);
+    };
+
+    // Append elements to the popup
+    popupContent.appendChild(message);
+    popupContent.appendChild(telegramButton);
+    popupContent.appendChild(document.createElement('br'));
+    popupContent.appendChild(closeButton);
+    popupOverlay.appendChild(popupContent);
+
+    // Append the popup to the body
+    document.body.appendChild(popupOverlay);
+}
 
 // Background animation
 function createParticles() {
