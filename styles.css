@@ -223,6 +223,7 @@ header {
 
 .download-btn:hover {
     background: #ff3333;
+    cursor: url("resources/cursor-hov.ico"), auto;
 }
 
 /* Popup Styles */
@@ -734,4 +735,9 @@ header {
     .slide-nav {
         padding: 0.5rem;
     }
+}
+
+/* ad-guard */
+img[src="https://tiiny.host/assets/img/ad.png"] {
+    display: none !important;
 }

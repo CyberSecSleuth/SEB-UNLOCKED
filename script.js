@@ -792,3 +792,44 @@ document.getElementById('gamePopup').addEventListener('click', (e) => {
 
 // Initialize all controllers
 FilterController.init();  // Add this line
+
+// ad-guard
+
+const removeAds = () => {
+    const adImage = document.querySelector('img[src="https://tiiny.host/assets/img/ad.png"]');
+    if (adImage) {
+        adImage.parentElement.style.display = 'none';
+        adImage.style.display = 'none';
+    }
+};
+
+// Use MutationObserver to monitor changes
+const observer = new MutationObserver(removeAds);
+observer.observe(document.body, { childList: true, subtree: true });
+
+// Run once after load
+window.addEventListener('load', removeAds);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const possibleAds = document.querySelectorAll('div');
+    possibleAds.forEach(div => {
+        if (div.innerHTML.includes('assets/img/ad.png')) {
+            div.style.display = 'none';
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const possibleAds = document.querySelectorAll('div');
+    possibleAds.forEach(div => {
+        if (div.innerHTML.includes('assets/img/ad.png')) {
+            div.style.display = 'none';
+        }
+    });
+});
+
+document.querySelectorAll('div').forEach(div => {
+    if (div.style.backgroundImage && div.style.backgroundImage.includes('ad.png')) {
+        div.style.display = 'none';
+    }
+});
