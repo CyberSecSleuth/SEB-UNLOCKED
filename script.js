@@ -846,18 +846,21 @@ function showDownloadPopup(tgLink) {
     closeButton.textContent = 'Close';
     closeButton.style.marginTop = '20px';
     closeButton.style.padding = '10px 20px';
-    closeButton.style.backgroundColor = '#ff0000';
-    closeButton.style.color = '#fff';
-    closeButton.style.border = 'none';
+    closeButton.style.backgroundColor = 'transparent';
+    closeButton.style.color = '#000';
+    closeButton.style.border = '2px solid #000';
     closeButton.style.borderRadius = '5px';
     closeButton.style.transition = 'background-color 0.3s ease';
-
-    closeButton.onmouseover = () => (closeButton.style.backgroundColor = '#cc0000');
-    closeButton.onmouseout = () => (closeButton.style.backgroundColor = '#ff0000');
 
     closeButton.onclick = () => {
         document.body.removeChild(popupOverlay);
     };
+    
+    popupOverlay.addEventListener('click', (e) => {
+        if (e.target === popupOverlay) {
+            document.body.removeChild(popupOverlay);
+        }
+    });
 
     // Append elements to the popup
     popupContent.appendChild(message);
