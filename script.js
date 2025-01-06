@@ -42,7 +42,8 @@ const gameData = [
             "https://linksshortner.xyz/525734/GTA+V+-+ATOM+GUY+EDITION.part20.rar?hash=AgADtx",
             "https://linksshortner.xyz/525735/GTA+V+-+ATOM+GUY+EDITION.part21.rar?hash=AgADuh",
             "https://linksshortner.xyz/525737/GTA+V+-+ATOM+GUY+EDITION.part22.rar?hash=AgADvx"
-        ]
+        ],
+        tgLink: "https://t.me/atomguygta5"
     },
     {
         "id": 2,
@@ -65,7 +66,8 @@ const gameData = [
         "downloadLinks": [
             "https://linksshortner.xyz/525692/LQ+GTA+SA+ATOM+GUY.rar?hash=AgAD_x",
             "https://linksshortner.xyz/525749/GTA+SA+ANDROID+ATOM+GUY+EDITION.zip?hash=AgAD8Q"
-        ]
+        ],
+        tgLink: "https://t.me/atomguygg"
     },
     {
         "id": 3,
@@ -92,7 +94,8 @@ const gameData = [
             "https://linksshortner.xyz/527904/GTA+IV+-+ATOM+GUY+EDITION.part05.rar?hash=AgADdh",
             "https://linksshortner.xyz/527908/GTA+IV+-+ATOM+GUY+EDITION.part06.rar?hash=AgADeB",
             "https://linksshortner.xyz/527910/GTA+IV+-+ATOM+GUY+EDITION.part07.rar?hash=AgADih"
-        ]
+        ],
+        tgLink: "https://t.me/atomguygta4"
     },
     {
         "id": 4,
@@ -114,7 +117,8 @@ const gameData = [
         "downloadLinks": [
             "https://linksshortner.xyz/525690/LQ+GTA+VC+ATOM+GUY.rar?hash=AgADCR",
             "https://linksshortner.xyz/525747/GTA+VC+ANDROID+ATOM+GUY+EDITION.zip?hash=AgADtR"
-        ]
+        ],
+        tgLink: "https://t.me/atomguygg"
     },
     {
         "id": 5,
@@ -135,7 +139,8 @@ const gameData = [
         ],
         "downloadLinks": [
             "https://linksshortner.xyz/525688/LQ+GTA+3+ATOM+GUY.rar?hash=AgADDR"
-        ]
+        ],
+        tgLink: "https://t.me/atomguygg"
     },
     {
         "id": 6,
@@ -183,7 +188,8 @@ const gameData = [
             "https://linksshortner.xyz/664506/RED+DEAD+REDEMPTION+2+-+ATOM+GUY.part26.rar?hash=AgADgA",
             "https://linksshortner.xyz/664504/RED+DEAD+REDEMPTION+2+-+ATOM+GUY.part27.rar?hash=AgADgQ",
             "https://linksshortner.xyz/664509/RED+DEAD+REDEMPTION+2+-+ATOM+GUY.part28.rar?hash=AgADgg"
-        ]
+        ],
+        tgLink: "https://t.me/atomguyrdr2"
     },
     {
         "id": 7,
@@ -226,7 +232,8 @@ const gameData = [
             "https://linksshortner.xyz/664625/Forza+Horizon+4+-+Atom+Guy.part21.rar?hash=AgADfx",
             "https://linksshortner.xyz/664629/Forza+Horizon+4+-+Atom+Guy.part22.rar?hash=AgADgB",
             "https://linksshortner.xyz/664633/Forza+Horizon+4+-+Atom+Guy.part23.rar?hash=AgADgR"
-        ]
+        ],
+        tgLink: "https://t.me/atomguyforza4"
     },
     {
         "id": 8,
@@ -247,7 +254,8 @@ const gameData = [
         ],
         "downloadLinks": [
             "https://linksshortner.xyz/664658/NFS+MW+2005+-+ATOM+GUY.zip?hash=AgADUx"
-        ]
+        ],
+        tgLink: "https://t.me/atomguynfs2005"
     },
     {
         "id": 9,
@@ -275,7 +283,8 @@ const gameData = [
             "https://linksshortner.xyz/664752/FIFA+18+-+Atom+Guy.part06.rar?hash=AgADJB",
             "https://linksshortner.xyz/664754/FIFA+18+-+Atom+Guy.part07.rar?hash=AgADMB",
             "https://linksshortner.xyz/664758/FIFA+18+-+Atom+Guy.part08.rar?hash=AgADMh"
-        ]
+        ],
+        tgLink: "https://t.me/atomguyfifa"
     },
     {
         "id": 10,
@@ -296,7 +305,8 @@ const gameData = [
         ],
         "downloadLinks": [
             "https://eaglercraft.com/"
-        ]
+        ],
+        tgLink: "https://t.me/Atomguyofficial"
     },
     {
         "id": 11,
@@ -317,7 +327,8 @@ const gameData = [
         ],
         "downloadLinks": [
             "https://linksshortner.xyz/664662/Bully+-+Atom+Guy+Edition.rar?hash=AgADoR"
-        ]
+        ],
+        tgLink: "https://t.me/atomguybully"
     },
     {
         "id": 12,
@@ -338,7 +349,8 @@ const gameData = [
         ],
         "downloadLinks": [
             "https://smgpo.sharemods.com/cgi-bin/dl.cgi/ntxubsz5vebqsg3ugrr7o5pgam6fs5arkec52xoberu7ikcoz6laxvq/Granny_1_-_Atom_Guy_Edition.zip"
-        ]
+        ],
+        tgLink: "https://t.me/Atomguyofficial"
     },
     {
         "id": 13,
@@ -364,7 +376,8 @@ const gameData = [
             "https://linksshortner.xyz/525611/Euro+Truck+Simulator+2+-+Atom+Guy.part4.rar?hash=AgADAh",
             "https://linksshortner.xyz/525613/Euro+Truck+Simulator+2+-+Atom+Guy.part5.rar?hash=AgADBx",
             "https://linksshortner.xyz/525617/Euro+Truck+Simulator+2+-+Atom+Guy.part6.rar?hash=AgADDR"
-        ]
+        ],
+        tgLink: "https://t.me/atomguyets2"
     },
     {
         "id": 14,
@@ -397,7 +410,8 @@ const gameData = [
             "https://linksshortner.xyz/664713/BeamNG.drive+-+Atom+Guy.part11.rar?hash=AgADbh",
             "https://linksshortner.xyz/664709/BeamNG.drive+-+Atom+Guy.part12.rar?hash=AgADbx",
             "https://linksshortner.xyz/664712/BeamNG.drive+-+Atom+Guy.part13.rar?hash=AgADcB"
-        ]
+        ],
+        tgLink: "https://t.me/atomguybeamng"
     },
     {
         "id": 15,
@@ -420,7 +434,8 @@ const gameData = [
         "downloadLinks": [
             "https://www.tgxdl2.workers.dev/0:/dl/125720?hash=AgAD7R",
             "https://www.tgxdl2.workers.dev/0:/dl/125721?hash=AgAD7h"
-        ]
+        ],
+        tgLink: "https://t.me/atomguybus21"
     }
 ];
 
@@ -738,7 +753,7 @@ function closePopup() {
 // Download functionality
 function initiateDownload(gameTitle, partNumber) {
     const partLink = currentGame.downloadLinks[partNumber - 1];
-    const tgLink = currentGame.tgLink || 'https://t.me/exampleChannel'; // Default Telegram link if not specified
+    const tgLink = currentGame.tgLink || 'https://t.me/exampleChannel';
     if (partLink) {
         // Start the download process
         const anchor = document.createElement('a');
@@ -835,7 +850,6 @@ function showDownloadPopup(tgLink) {
     closeButton.style.color = '#fff';
     closeButton.style.border = 'none';
     closeButton.style.borderRadius = '5px';
-    closeButton.style.cursor = 'pointer';
     closeButton.style.transition = 'background-color 0.3s ease';
 
     closeButton.onmouseover = () => (closeButton.style.backgroundColor = '#cc0000');
