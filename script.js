@@ -449,6 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('loadingScreen').style.display = 'none';
         document.getElementById('mainContent').style.display = 'block';
         initializeGames();
+        addAudioEffect();
     }, 2000);
 });
 
@@ -713,6 +714,27 @@ function showGameDetails(gameId) {
     // Show popup
     popup.style.display = 'flex';
     currentSlide = 0;
+}
+
+function addAudioEffect() {
+    const gameCards = document.querySelectorAll('.game-card');
+    const downloadButtons = document.querySelectorAll('.download-btn');
+    const hoverAudio = new Audio('resources/toggleCardGtaSA.wav');
+    const clickAudio = new Audio('resources/onClickCardGtaSA.wav');
+
+    gameCards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            hoverAudio.currentTime = 0;
+            hoverAudio.play();
+        });
+    });
+
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            clickAudio.currentTime = 0;
+            clickAudio.play();
+        });
+    });
 }
 
 // Slideshow navigation
