@@ -6,6 +6,7 @@ const gameData = [
         "description": "Explore the massive open world of Los Santos and Blaine County with three playable characters: Michael, Franklin, and Trevor. Engage in heists and chaos in this critically acclaimed action game.",
         genres: ["action", "sandbox", "open-world"],
         "parts": 22,
+        "multi-combact":false,
         "requirements": {
             "cpu": "Intel Core 2 Quad Q6600 or AMD Phenom 9850",
             "ram": "4 GB RAM",
@@ -52,6 +53,7 @@ const gameData = [
         genres: ["action", "sandbox", "open-world"],
         "category": "Action",
         "parts": 2,
+        "multi-combact":true,
         "requirements": {
             "cpu": "1 GHz Intel Pentium III or AMD Athlon",
             "ram": "256 MB RAM",
@@ -75,6 +77,7 @@ const gameData = [
         "description": "Experience Niko Bellic's story as he arrives in Liberty City to pursue the American Dream while dealing with his criminal past.",
         genres: ["action", "sandbox", "open-world"],
         "parts": 7,
+        "multi-combact":false,
         "requirements": {
             "cpu": "Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.4 GHz",
             "ram": "1.5 GB RAM",
@@ -102,6 +105,7 @@ const gameData = [
         "title": "Grand Theft Auto: Vice City | GTA Vice City",
         "description": "Explore the vibrant streets of Vice City in the 1980s. Experience the rise of Tommy Vercetti as he builds his criminal empire in this neon-lit open-world game.",
         genres: ["action", "sandbox", "open-world"],
+        "multi-combact":true,
         "parts": 2,
         "requirements": {
             "cpu": "800 MHz Intel Pentium III or AMD Athlon",
@@ -125,6 +129,7 @@ const gameData = [
         "title": "Grand Theft Auto III | GTA III",
         "description": "Step into Liberty City, a gritty metropolis filled with crime and chaos. Follow Claude's journey in this open-world action-adventure game that revolutionized 3D gameplay.",
         genres: ["action", "sandbox", "open-world"],
+        "multi-combact":false,
         "parts": 1,
         "requirements": {
             "cpu": "Pentium III 450 MHz or AMD Athlon 600 MHz",
@@ -147,6 +152,7 @@ const gameData = [
         "title": "Red Dead Redemption 2 | RDR 2",
         "description": "Immerse yourself in the story of Arthur Morgan and the Van der Linde gang as they struggle to survive in America's unforgiving heartland.",
         genres: ["sandbox", "survival", "adventure"],
+        "multi-combact":false,
         "parts": 28,
         "requirements": {
             "cpu": "Intel Core i5-2500K or AMD FX-6300",
@@ -196,6 +202,7 @@ const gameData = [
         "title": "Forza Horizon 4",
         "description": "Experience dynamic seasons in the stunningly beautiful open world of Britain. Race, stunt, and explore solo or with friends.",
         genres: ["racing", "action"],
+        "multi-combact":false,
         "parts": 23,
         "requirements": {
             "cpu": "Intel i3-4170 or AMD FX-6120",
@@ -240,6 +247,7 @@ const gameData = [
         "title": "Need for Speed: Most Wanted | NFS Most Wanted",
         "description": "Outrun the police and your rivals in this high-octane street racing game that became a classic in the NFS series.",
         genres: ["racing", "open-world"],
+        "multi-combact":false,
         "parts": 1,
         "requirements": {
             "cpu": "1.4 GHz Pentium 4 or equivalent",
@@ -262,6 +270,7 @@ const gameData = [
         "title": "FIFA 18",
         "description": "Experience the excitement of football with stunning graphics and gameplay enhancements in FIFA 18.",
         genres: ["sports", "simulation"],
+        "multi-combact":false,
         "parts": 8,
         "requirements": {
             "cpu": "Intel Core i3-2100 or AMD Phenom II X4 965",
@@ -291,6 +300,7 @@ const gameData = [
         "title": "Minecraft",
         "description": "Build, explore, and survive in this blocky, pixelated world filled with endless possibilities.",
         genres: ["sandbox", "survival", "adventure"],
+        "multi-combact":true,
         "parts": 1,
         "requirements": {
             "cpu": "Intel Core i3-3210 or AMD A8-7600",
@@ -304,15 +314,17 @@ const gameData = [
             "https://www.merlinentertainments.biz/media/6803/images-courtesy-of-merlin-and-tm-mojang-ab-2.jpg?anchor=center&mode=crop&width=980&height=570&rnd=133763995550000000&format=webp"
         ],
         "downloadLinks": [
-            "https://eaglercraft.com/"
+            "https://eaglercraft.com/",
+            "https://telegram.me/+mxsNj0JNy4ozNTVl",
         ],
-        tgLink: "https://t.me/Atomguyofficial"
+        tgLink: "https://telegram.me/+mxsNj0JNy4ozNTVl"
     },
     {
         "id": 11,
         "title": "Bully: Scholarship Edition",
         "description": "Play as Jimmy Hopkins as you navigate the social hierarchy of Bullworth Academy in this action-adventure game filled with pranks and challenges.",
         genres: ["action", "sandbox"],
+        "multi-combact":false,
         "parts": 1,
         "requirements": {
             "cpu": "Intel Pentium 4 (3+ GHZ) / AMD Athlon 3000+",
@@ -335,6 +347,7 @@ const gameData = [
         "title": "Granny",
         "description": "Survive and escape a creepy house while avoiding the wrath of Granny in this thrilling horror game.",
         genres: ["horror", "survival"],
+        "multi-combact":false,
         "parts": 1,
         "requirements": {
             "cpu": "Intel Core 2 Duo or equivalent",
@@ -357,6 +370,7 @@ const gameData = [
         "title": "Euro Truck Simulator 2 | ETS 2",
         "description": "Experience the life of a truck driver as you deliver cargo across Europe in this realistic truck simulator.",
         genres: ["simulation", "driving"],
+        "multi-combact":false,
         "parts": 6,
         "requirements": {
             "cpu": "Dual core CPU 2.4 GHz",
@@ -384,6 +398,7 @@ const gameData = [
         "title": "BeamNG.drive",
         "description": "Experience realistic soft-body physics and open-world exploration with a variety of vehicles in this driving simulation.",
         genres: ["simulation", "racing"],
+        "multi-combact":false,
         "parts": 13,
         "requirements": {
             "cpu": "AMD FX-6300 or Intel i5-4430",
@@ -418,6 +433,7 @@ const gameData = [
         "title": "Bus Simulator 21",
         "description": "Take control of your bus-driving career in an expansive open world with realistic routes, dynamic traffic, and a variety of buses to master.",
         genres: ["simulation", "driving"],
+        "multi-combact":false,
         "parts": 2,
         "requirements": {
             "cpu": "Intel Core i5-4440 or AMD FX-8370",
@@ -426,7 +442,7 @@ const gameData = [
             "storage": "18 GB available space"
         },
         "images": [
-            "https://stillalive.games/images/game-headers/bs21_slider_hu48ed618371f8ca272afe239601b59935_3772253_1280x0_resize_box_3.png",
+            "https://xxboxnews.blob.core.windows.net/prod/sites/2/2020/08/Bus21-Hero-Image.jpg",
             "https://m.media-amazon.com/images/I/71X2z4Lx2FL.jpg",
             "https://www.bussimulator.com/img/news/0005/slider5-03.jpg"
         ],
@@ -436,6 +452,231 @@ const gameData = [
             "https://www.tgxdl2.workers.dev/0:/dl/125721?hash=AgAD7h"
         ],
         tgLink: "https://t.me/atomguybus21"
+    },
+    {
+        "id": 16,
+        "title": "Sleeping Dogs: Definitive Edition",
+        "description": "Step into the shoes of Wei Shen, an undercover cop infiltrating the dangerous Hong Kong Triads in this action-packed open-world adventure.",
+        "genres": ["action", "open-world", "crime"],
+        "category": "Action",
+        "parts": 3,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.7 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce 8800 GT / ATI Radeon 3870",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://www.slashgear.com/img/gallery/sleeping-dogs-definitive-edition-review/intro-import.jpg",
+            "https://cdn.akamai.steamstatic.com/steam/apps/307690/ss_5d2c8a98224d16b9d5c6deeb97eb3f67a2d1c593.1920x1080.jpg",
+            "https://www.giantbomb.com/a/uploads/original/0/1942/2725746-sleeping-dogs-definitive-edition-gameplay.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/",
+            "https://www.gog.com/game/sleeping_dogs_definitive_edition"
+        ],
+        "tgLink": "https://t.me/atomguysleepingdogs"
+    },
+    {
+        "id": 17,
+        "title": "SnowRunner",
+        "description": "Conquer extreme open-world environments with powerful vehicles in this off-road simulation experience.",
+        "genres": ["simulation", "driving", "off-road"],
+        "category": "Simulation",
+        "parts": 10,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel i3-4130 / AMD Ryzen 3 2200U",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://image.api.playstation.com/vulcan/ap/rnd/202105/0612/cqADFuCgu00EQKQNtpWWSa2q.jpg",
+            "https://www.focus-entmt.com/uploads/game-media/2021/12/snowrunner-1.jpg",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1465360/header.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/1465360/SnowRunner/",
+            "https://www.epicgames.com/store/en-US/p/snowrunner"
+        ],
+        "tgLink": "https://telegram.me/+GSHo_b6gt2Y3MTFl"
+    },
+    {
+        "id": 18,
+        "title": "Farming Simulator",
+        "description": "Live the life of a modern farmer, cultivating fields, raising livestock, and managing your farm in this realistic agricultural simulation.",
+        "genres": ["simulation", "farming", "strategy"],
+        "category": "Simulation",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i5-3330 / AMD FX-8320",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon R7 265",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/c479-farming_simulator_22.jpeg.webp",
+            "https://www.giants-software.com/img/screens/fs22/fs22-01.jpg",
+            "https://www.farming-simulator.com/images/products/800/fs22.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/1248130/Farming_Simulator_22/",
+            "https://www.farming-simulator.com/"
+        ],
+        "tgLink": "https://telegram.me/+qR4zCFgv9io3MGNl"
+    },
+    {
+        "id": 19,
+        "title": "Inside",
+        "description": "A dark, atmospheric puzzle-platformer where a boy explores a sinister, dystopian world filled with eerie surprises.",
+        "genres": ["puzzle", "platformer", "action"],
+        "category": "Adventure",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo E4500 / AMD Athlon 64 X2 5000+",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 460 / AMD Radeon HD 6750",
+            "storage": "3 GB available space"
+        },
+        "images": [
+            "https://img.opencritic.com/game/2848/o/Jo0HjaKf.jpg",
+            "https://www.mobygames.com/images/shots/l/885309-inside-playstation-4-screenshot-standing-in-the-rain.jpg",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/304430/header.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/304430/INSIDE/",
+            "https://www.epicgames.com/store/en-US/p/inside"
+        ],
+        "tgLink": "https://sharemods.com/z8yfqn0kg8d2/INSIDE_-_ATOM_GUY.rar.html"
+    },
+    {
+        "id": 20,
+        "title": "Getting Over It",
+        "description": "A punishing climbing game where you control a man stuck in a pot, using a hammer to overcome bizarre and frustrating obstacles.",
+        "genres": ["platformer", "physics-based", "rage"],
+        "category": "Platformer",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "2 GHz Dual Core",
+            "ram": "2 GB RAM",
+            "gpu": "Intel HD Graphics 4000",
+            "storage": "2 GB available space"
+        },
+        "images": [
+            "https://noodlecake.com/wp-content/uploads/2018/04/feature-GettingOverIt-1280x720.jpg",
+            "https://cdn.akamai.steamstatic.com/steam/apps/240720/header.jpg",
+            "https://gamingcentral.in/wp-content/uploads/2017/12/Getting-Over-It-Gameplay.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/",
+            "https://www.humblebundle.com/store/getting-over-it-with-bennett-foddy"
+        ],
+        "tgLink": "https://sharemods.com/wa2lhxuraep9/Getting_Over_It_-_Atom_Guy.rar.html"
+    },
+    {
+        "id": 21,
+        "title": "Ranch Simulator",
+        "description": "Build, farm, and hunt as you restore your family ranch in this realistic multiplayer simulation game.",
+        "genres": ["simulation", "multiplayer", "farming"],
+        "category": "Simulation",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i5-3570K / AMD FX-8310",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon R9 270",
+            "storage": "15 GB available space"
+        },
+        "images": [
+            "https://cdn2.unrealengine.com/ranch-simulator-1920x1080-2c438975e7b2.png",
+            "https://www.focus-entmt.com/uploads/game-media/2021/12/ranch-simulator-1.jpg",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/ss_a0d6f0f4fd62decc82274f47e1e6eb90a157e582.1920x1080.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/1119730/Ranch_Simulator/",
+            "https://www.epicgames.com/store/en-US/p/ranch-simulator"
+        ],
+        "tgLink": "https://telegram.me/+twBtf-bpNO9kNTM1"
+    },
+    {
+        "id": 22,
+        "title": "Need for Speed: Most Wanted (2012)",
+        "description": "Race, evade the cops, and take down rivals in this high-speed open-world racing game, where being Most Wanted is the ultimate goal.",
+        "genres": ["racing", "open-world", "action"],
+        "category": "Racing",
+        "parts": 2,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.6 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce 8800 GT / AMD Radeon HD 3870",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP7xfNYerHqYtk4sAPhR5sH_Le0o6WNLyVrve-hhFNYPwgavn87Cz95JrIZ42KR0pD892VaV5g5eCF60eNw5aBiTRJWuSJ0ItVyD-iO4MzIxV002ea3pk5JyGy8DnwJV-QvgGUj4Oww_CD/s1600/nfsmw.jpg",
+            "https://cdn.akamai.steamstatic.com/steam/apps/1262540/ss_0a6cd9f60a1bc3a8cb5c5983b7db79947f5d0e4c.1920x1080.jpg",
+            "https://assets-prd.ignimgs.com/2021/08/06/nfsmw2012-1628277564692.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/1262540/Need_for_Speed_Most_Wanted/",
+            "https://www.ea.com/games/need-for-speed/need-for-speed-most-wanted"
+        ],
+        "tgLink": "https://t.me/atomguynfs2012"
+    },
+    {
+        "id": 8,
+        "title": "Grand Theft Auto: Vice City Nextgen Edition",
+        "description": "Experience the classic open-world crime saga of Tommy Vercetti in a fully remastered next-gen edition with improved graphics, modernized gameplay, and enhanced lighting.",
+        "genres": ["action", "sandbox", "crime"],
+        "category": "Action",
+        "parts": 4,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i3-6100 / AMD FX-6300",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 1050 / AMD Radeon RX 560",
+            "storage": "15 GB available space"
+        },
+        "images": [
+            "https://preview.redd.it/gta-vice-city-next-gen-was-officially-shut-down-v0-b1eonzhgpwge1.jpeg?auto=webp&s=43ac74cabcd31a1343f5b76a4bc9e37ea591e0f2",
+            "https://upload.wikimedia.org/wikipedia/en/a/a3/Grand_Theft_Auto_Vice_City_cover.jpg",
+            "https://i.ytimg.com/vi/pe6mwx_jD1s/maxresdefault.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.rockstargames.com/game/buy-grand-theft-auto-vice-city-the-definitive-edition",
+            "https://www.gog.com/game/grand_theft_auto_vice_city"
+        ],
+        "tgLink": "https://telegram.me/+I3_4ye95buk4Y2U9"
+    },
+    {
+        "id": 9,
+        "title": "Grand Theft Auto: Vice City Deluxe Edition",
+        "description": "An enhanced modded edition of GTA Vice City, featuring upgraded vehicles, improved textures, realistic lighting, and additional missions to elevate the classic experience.",
+        "genres": ["action", "sandbox", "crime", "modded"],
+        "category": "Action",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce 9800 GT / AMD Radeon HD 4870",
+            "storage": "10 GB available space"
+        },
+        "images": [
+            "https://i.ytimg.com/vi/uM2qFf_ZaWI/maxresdefault.jpg",
+            "https://i.ytimg.com/vi/S1T0zaFs0r8/maxresdefault.jpg",
+            "https://www.gtaall.com/images/editor/2023-01/1674254645_gta-vice-city-deluxe-mod.jpg"
+        ],
+        "downloadLinks": [
+            "https://www.moddb.com/mods/vice-city-deluxe/downloads",
+            "https://www.gtainside.com/en/vicecity/mods/vice-city-deluxe"
+        ],
+        "tgLink": "https://sharemods.com/9tqwtcy6ltg5/GTA_VC_DELUX_-_ATOM_GUY.rar.html"
     }
 ];
 
@@ -464,23 +705,116 @@ function initializeGames() {
     });
 }
 
-// Create game card element
+// Create game card element with parts counter and trending badge
 function createGameCard(game) {
     const card = document.createElement('div');
     card.className = 'game-card';
+    
+    // Create tags HTML
+    const tagsHTML = game.genres.map(genre => 
+        `<span class="game-tag">${genre}</span>`
+    ).join('');
+    
+    // Determine if game is trending (more than 2 parts)
+    const isTrending = game.parts > 2;
+    const trendingBadge = isTrending ? 
+        `<div class="trending-badge"><i class="fas fa-fire"></i> Trending</div>` : '';
+    
     card.innerHTML = `
-        <img src="${game.images[0]}" alt="${game.title}" class="game-image">
-        <div class="game-info">
-            <h3 class="game-title">${game.title}</h3>
-            <p class="game-parts">Parts: ${game.parts}</p>
-            <button class="download-btn" onclick="showGameDetails(${game.id})">
-                Download
-            </button>
+        <div class="game-card-inner">
+            <div class="game-image-container">
+                <img src="${game.images[0]}" alt="${game.title}" class="game-image">
+                ${trendingBadge}
+                <div class="hover-info">
+                    <div class="parts-counter" data-parts="${game.parts}">
+                        <span class="parts-number">0</span>
+                        <span class="parts-label">Parts</span>
+                    </div>
+                </div>
+            </div>
+            <div class="game-info">
+                <h3 class="game-title">${game.title}</h3>
+                <div class="game-tags-container">
+                    ${tagsHTML}
+                </div>
+                <button class="download-btn" onclick="showGameDetails(${game.id})">
+                    <i class="fas fa-download"></i> Download
+                </button>
+            </div>
         </div>
     `;
+    
+    // Add hover event listeners for parts counter animation
+    card.addEventListener('mouseenter', () => {
+        const partsCounter = card.querySelector('.parts-counter');
+        const partsNumber = partsCounter.querySelector('.parts-number');
+        const targetParts = parseInt(partsCounter.dataset.parts);
+        
+        // Reset counter
+        partsNumber.textContent = '0.000';
+        
+        // Determine animation approach based on parts count
+        if (targetParts <= 2) {
+            // For 1 or 2 parts, animate with decimals up to the target
+            let currentCount = 0;
+            const decimalSteps = 50; // Number of steps to reach target
+            const duration = 1000; // 1 second total
+            const interval = duration / decimalSteps;
+            
+            const counterInterval = setInterval(() => {
+                currentCount += targetParts / decimalSteps;
+                
+                // Display with 3 decimal places while counting
+                if (currentCount < targetParts) {
+                    partsNumber.textContent = currentCount.toFixed(3);
+                } else {
+                    // When reaching the target, show as whole number
+                    partsNumber.textContent = targetParts;
+                    clearInterval(counterInterval);
+                }
+            }, Math.max(20, interval)); // Ensure interval is at least 20ms
+        } else {
+            // For more than 2 parts, animate with decimals up to 2, then continue normally
+            let currentCount = 0;
+            const decimalSteps = 50; // Number of steps to reach 2
+            const decimalDuration = 800; // Time to reach 2 (in ms)
+            const decimalInterval = decimalDuration / decimalSteps;
+            
+            // Start with decimal animation from 0 to 2
+            const decimalCounter = setInterval(() => {
+                currentCount += 2 / decimalSteps;
+                
+                // Display with 3 decimal places while below 2
+                if (currentCount < 2) {
+                    partsNumber.textContent = currentCount.toFixed(3);
+                } else {
+                    // When reaching 2, switch to whole numbers
+                    currentCount = 2;
+                    partsNumber.textContent = '2';
+                    clearInterval(decimalCounter);
+                    
+                    // Continue with whole numbers
+                    const remainingParts = targetParts - 2;
+                    const remainingDuration = 600; // Time for the rest of the count
+                    const wholeInterval = remainingDuration / remainingParts;
+                    
+                    const wholeCounter = setInterval(() => {
+                        currentCount++;
+                        partsNumber.textContent = currentCount;
+                        
+                        if (currentCount >= targetParts) {
+                            clearInterval(wholeCounter);
+                        }
+                    }, Math.max(50, wholeInterval)); // Ensure interval is at least 50ms
+                }
+            }, decimalInterval);
+        }
+    });
+    
     return card;
 }
 
+// Keep the existing FilterController code
 const FilterController = {
     activeFilters: new Set(['all']),
 
@@ -702,14 +1036,30 @@ function showGameDetails(gameId) {
     // Set up download buttons
     const downloadButtons = document.getElementById('downloadButtons');
     downloadButtons.innerHTML = '';
-    currentGame.downloadLinks.forEach((link, index) => {
-    const button = document.createElement('button');
-    button.className = 'download-btn';
-    button.textContent = `Download Part ${index + 1}`;
-    button.onclick = () => initiateDownload(currentGame.title, index + 1);
-    downloadButtons.appendChild(button);
-    });
-
+    
+    // Check if the game has multi-combact property set to true
+    if (currentGame["multi-combact"] === true) {
+        const pcButton = document.createElement('button');
+        pcButton.className = 'download-btn';
+        pcButton.textContent = 'Download for PC';
+        pcButton.onclick = () => initiateDownload(currentGame.title, 1);
+        downloadButtons.appendChild(pcButton);
+        if (currentGame.downloadLinks.length > 1) {
+            const androidButton = document.createElement('button');
+            androidButton.className = 'download-btn';
+            androidButton.textContent = 'Download for Android';
+            androidButton.onclick = () => initiateDownload(currentGame.title, 2);
+            downloadButtons.appendChild(androidButton);
+        }
+    } else {
+        currentGame.downloadLinks.forEach((link, index) => {
+            const button = document.createElement('button');
+            button.className = 'download-btn';
+            button.textContent = `Download Part ${index + 1}`;
+            button.onclick = () => initiateDownload(currentGame.title, index + 1);
+            downloadButtons.appendChild(button);
+        });
+    }
 
     // Show popup
     popup.style.display = 'flex';
@@ -754,12 +1104,9 @@ function changeSlide(direction) {
 function goToSlide(slideIndex) {
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
-    
     slides[currentSlide].classList.remove('active');
     dots[currentSlide].classList.remove('active');
-    
     currentSlide = slideIndex;
-    
     slides[currentSlide].classList.add('active');
     dots[currentSlide].classList.add('active');
 }
