@@ -301,7 +301,7 @@ const gameData = [
         "description": "Build, explore, and survive in this blocky, pixelated world filled with endless possibilities.",
         genres: ["sandbox", "survival", "adventure"],
         "multi-combact":true,
-        "parts": 1,
+        "parts": 2,
         "requirements": {
             "cpu": "Intel Core i3-3210 or AMD A8-7600",
             "ram": "4 GB RAM",
@@ -629,7 +629,7 @@ const gameData = [
         "tgLink": "https://t.me/atomguynfs2012"
     },
     {
-        "id": 8,
+        "id": 23,
         "title": "Grand Theft Auto: Vice City Nextgen Edition",
         "description": "Experience the classic open-world crime saga of Tommy Vercetti in a fully remastered next-gen edition with improved graphics, modernized gameplay, and enhanced lighting.",
         "genres": ["action", "sandbox", "crime"],
@@ -654,7 +654,7 @@ const gameData = [
         "tgLink": "https://telegram.me/+I3_4ye95buk4Y2U9"
     },
     {
-        "id": 9,
+        "id": 24,
         "title": "Grand Theft Auto: Vice City Deluxe Edition",
         "description": "An enhanced modded edition of GTA Vice City, featuring upgraded vehicles, improved textures, realistic lighting, and additional missions to elevate the classic experience.",
         "genres": ["action", "sandbox", "crime", "modded"],
