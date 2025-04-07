@@ -125,6 +125,56 @@ const gameData = [
         tgLink: "https://t.me/atomguygg"
     },
     {
+        "id": 23,
+        "title": "Grand Theft Auto: Vice City Nextgen Edition | GTA VC",
+        "description": "Experience the classic open-world crime saga of Tommy Vercetti in a fully remastered next-gen edition with improved graphics, modernized gameplay, and enhanced lighting.",
+        "genres": ["action", "sandbox", "crime"],
+        "category": "Action",
+        "parts": 4,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i3-6100 / AMD FX-6300",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 1050 / AMD Radeon RX 560",
+            "storage": "15 GB available space"
+        },
+        "images": [
+            "https://preview.redd.it/gta-vice-city-next-gen-was-officially-shut-down-v0-b1eonzhgpwge1.jpeg?auto=webp&s=43ac74cabcd31a1343f5b76a4bc9e37ea591e0f2",
+            "https://www.dsogaming.com/wp-content/uploads/2024/01/Grand-Theft-Auto-Vice-City-NextGen-Mod.jpg",
+            "https://preview.redd.it/new-released-mod-gta-vice-city-nextgen-edition-v0-mvfqo6vq15fe1.png?width=1920&format=png&auto=webp&s=d7f7c50af9c9ad36030182f035260593b871e7f7"
+        ],
+        "downloadLinks": [
+            "https://store.rockstargames.com/game/buy-grand-theft-auto-vice-city-the-definitive-edition",
+            "https://www.gog.com/game/grand_theft_auto_vice_city"
+        ],
+        "tgLink": "https://telegram.me/+I3_4ye95buk4Y2U9"
+    },
+    {
+        "id": 24,
+        "title": "Grand Theft Auto: Vice City Deluxe Edition | GTA VC",
+        "description": "An enhanced modded edition of GTA Vice City, featuring upgraded vehicles, improved textures, realistic lighting, and additional missions to elevate the classic experience.",
+        "genres": ["action", "sandbox", "crime", "modded"],
+        "category": "Action",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce 9800 GT / AMD Radeon HD 4870",
+            "storage": "10 GB available space"
+        },
+        "images": [
+            "https://i.ytimg.com/vi/uM2qFf_ZaWI/maxresdefault.jpg",
+            "https://i.ytimg.com/vi/WHG_6S-S5yY/maxresdefault.jpg",
+            "https://i.ytimg.com/vi/Q4QYTUJl8rY/maxresdefault.jpg"
+        ],
+        "downloadLinks": [
+            "https://www.moddb.com/mods/vice-city-deluxe/downloads",
+            "https://www.gtainside.com/en/vicecity/mods/vice-city-deluxe"
+        ],
+        "tgLink": "https://sharemods.com/9tqwtcy6ltg5/GTA_VC_DELUX_-_ATOM_GUY.rar.html"
+    },
+    {
         "id": 5,
         "title": "Grand Theft Auto III | GTA III",
         "description": "Step into Liberty City, a gritty metropolis filled with crime and chaos. Follow Claude's journey in this open-world action-adventure game that revolutionized 3D gameplay.",
@@ -138,7 +188,7 @@ const gameData = [
             "storage": "500 MB available space"
         },
         "images": [
-            "https://cdn1.epicgames.com/offer/ec64a50e79884e28be9ac3d3cd4f5c12/EGS_GrandTheftAutoIIITheDefinitiveEdition_RockstarGames_S1_2560x1440-5e44468c38f50805cac5ab47748d7b79",
+            "https://cdn2.steamgriddb.com/grid/51c2b2bf3e7ca827d338f9ef016283c3.png",
             "https://i.ytimg.com/vi/tM8KKIoZ5dA/maxresdefault.jpg",
             "https://i.ytimg.com/vi/ztEe4fDcOxw/maxresdefault.jpg"
         ],
@@ -146,6 +196,81 @@ const gameData = [
             "https://linksshortner.xyz/525688/LQ+GTA+3+ATOM+GUY.rar?hash=AgADDR"
         ],
         tgLink: "https://t.me/atomguygg"
+    },
+    {
+        "id": 27,
+        "title": "Grand Theft Auto III: Definitive Edition | GTA III",
+        "description": "Experience the game that set the foundation for open-world crime sagas with enhanced visuals, improved mechanics, and modern controls in this remastered edition of GTA 3.",
+        "genres": ["action", "open-world", "crime"],
+        "category": "Action-Adventure",
+        "parts": 3,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i5-6600K / AMD FX-6300",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon R9 280",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://cdn1.epicgames.com/offer/ec64a50e79884e28be9ac3d3cd4f5c12/EGS_GrandTheftAutoIIITheDefinitiveEdition_RockstarGames_S1_2560x1440-5e44468c38f50805cac5ab47748d7b79",
+            "https://images.pushsquare.com/d5c1afd80ddfd/large.jpg",
+            "https://images.pushsquare.com/124d7cd3919dd/large.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.rockstargames.com/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition",
+            "https://www.xbox.com/en-US/games/store/grand-theft-auto-the-trilogy-the-definitive-edition/9P2T1JXZSF8W"
+        ],
+        "tgLink": "https://t.me/gta3definitive"
+    },
+    {
+        "id": 16,
+        "title": "Sleeping Dogs: Definitive Edition",
+        "description": "Step into the shoes of Wei Shen, an undercover cop infiltrating the dangerous Hong Kong Triads in this action-packed open-world adventure.",
+        "genres": ["action", "open-world", "crime"],
+        "category": "Action",
+        "parts": 3,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.7 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce 8800 GT / ATI Radeon 3870",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://www.slashgear.com/img/gallery/sleeping-dogs-definitive-edition-review/intro-import.jpg",
+            "https://ctrlaltnoob.com/wp-content/uploads/2020/07/23eb6-sleeping-dogs_-definitive-edition_20170721222503.jpg",
+            "https://preview.redd.it/its-such-a-crime-that-we-didnt-get-sleeping-dogs-2-yet-v0-z3m5jrltf95b1.jpg?auto=webp&s=4479bbd1101de67b82b69fb4291a6d0a19f88126"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/",
+            "https://www.gog.com/game/sleeping_dogs_definitive_edition"
+        ],
+        "tgLink": "https://t.me/atomguysleepingdogs"
+    },
+    {
+        "id": 26,
+        "title": "Marvel's Spider-Man 2",
+        "description": "Swing through the streets of New York as both Peter Parker and Miles Morales in this action-packed adventure featuring Venom and other iconic villains.",
+        "genres": ["action", "adventure", "superhero", "open-world"],
+        "category": "Action-Adventure",
+        "parts": 1,
+        "multi-combat": true,
+        "requirements": {
+            "cpu": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+            "ram": "16 GB RAM",
+            "gpu": "NVIDIA GeForce RTX 2070 / AMD Radeon RX 5700 XT",
+            "storage": "100 GB available space"
+        },
+        "images": [
+            "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/e66c4ae18c5d8e3986a24599b293162a6f5c9eba22968d2c.jpg",
+            "https://www.dsogaming.com/wp-content/uploads/2014/05/vanilla1.jpg",
+            "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2651280/ss_cde4862328227ea8cfb2981c92b6411b705ed0f4.1920x1080.jpg?t=1738343995",
+        ],
+        "downloadLinks": [
+            "https://store.playstation.com/en-us/product/UP9000-PPSA13359_00-MARVELSPIDERMAN2",
+            "https://insomniac.games/game/marvels-spider-man-2/"
+        ],
+        "tgLink": "https://t.me/marvelspiderman2"
     },
     {
         "id": 6,
@@ -198,11 +323,36 @@ const gameData = [
         tgLink: "https://t.me/atomguyrdr2"
     },
     {
+        "id": 25,
+        "title": "Red Dead  | RDR 1",
+        "description": "Step into the boots of John Marston, a former outlaw forced to hunt down his old gang members in a vast and unforgiving Wild West.",
+        "genres": ["action", "adventure", "open-world", "western"],
+        "category": "Action-Adventure",
+        "parts": 3,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i5-2500K / AMD FX-6300",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 280",
+            "storage": "16 GB available space"
+        },
+        "images": [
+            "https://i.ytimg.com/vi/mnvc6uC6xZE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBN-hoamvhV-bDILRBcnsY9xRMQsQ",
+            "https://gamedecide.com/wp-content/uploads/2024/12/now-that-rdr1-is-officially-available-for-pc-what-mods-are-v0-kpo2dbweyvxd1_11zon-1024x567.webp",
+            "https://cdn.mos.cms.futurecdn.net/UxrjGLgJ8K69CwoTuHGXP4-1200-80.jpg"
+        ],
+        "downloadLinks": [
+            "https://www.rockstargames.com/reddeadredemption",
+            "https://store.playstation.com/en-us/product/UP1004-CUSA07992_00-REDEMPTION000001"
+        ],
+        "tgLink": "https://t.me/rdr1"
+    },
+    {
         "id": 7,
         "title": "Forza Horizon 4",
         "description": "Experience dynamic seasons in the stunningly beautiful open world of Britain. Race, stunt, and explore solo or with friends.",
-        genres: ["racing", "action"],
-        "multi-combact":false,
+        "genres": ["racing", "action"],
+        "multi-combact": false,
         "parts": 23,
         "requirements": {
             "cpu": "Intel i3-4170 or AMD FX-6120",
@@ -240,14 +390,39 @@ const gameData = [
             "https://linksshortner.xyz/664629/Forza+Horizon+4+-+Atom+Guy.part22.rar?hash=AgADgB",
             "https://linksshortner.xyz/664633/Forza+Horizon+4+-+Atom+Guy.part23.rar?hash=AgADgR"
         ],
-        tgLink: "https://t.me/atomguyforza4"
+        "tgLink": "https://t.me/atomguyforza4"
+    },
+    {
+        "id": 22,
+        "title": "Need for Speed: Most Wanted (2012) | NFS 2012",
+        "description": "Race, evade the cops, and take down rivals in this high-speed open-world racing game, where being Most Wanted is the ultimate goal.",
+        "genres": ["racing", "open-world", "action"],
+        "category": "Racing",
+        "parts": 2,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.6 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "NVIDIA GeForce 8800 GT / AMD Radeon HD 3870",
+            "storage": "20 GB available space"
+        },
+        "images": [
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP7xfNYerHqYtk4sAPhR5sH_Le0o6WNLyVrve-hhFNYPwgavn87Cz95JrIZ42KR0pD892VaV5g5eCF60eNw5aBiTRJWuSJ0ItVyD-iO4MzIxV002ea3pk5JyGy8DnwJV-QvgGUj4Oww_CD/s1600/nfsmw.jpg",
+            "https://mattbrett.com/wp-content/uploads/2013/01/nfsmw-city.jpg",
+            "https://m.media-amazon.com/images/I/91n4bEqocUL.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/1262540/Need_for_Speed_Most_Wanted/",
+            "https://www.ea.com/games/need-for-speed/need-for-speed-most-wanted"
+        ],
+        "tgLink": "https://t.me/atomguynfs2012"
     },
     {
         "id": 8,
         "title": "Need for Speed: Most Wanted | NFS Most Wanted",
         "description": "Outrun the police and your rivals in this high-octane street racing game that became a classic in the NFS series.",
-        genres: ["racing", "open-world"],
-        "multi-combact":false,
+        "genres": ["racing", "open-world"],
+        "multi-combact": false,
         "parts": 1,
         "requirements": {
             "cpu": "1.4 GHz Pentium 4 or equivalent",
@@ -263,142 +438,14 @@ const gameData = [
         "downloadLinks": [
             "https://linksshortner.xyz/664658/NFS+MW+2005+-+ATOM+GUY.zip?hash=AgADUx"
         ],
-        tgLink: "https://t.me/atomguynfs2005"
-    },
-    {
-        "id": 9,
-        "title": "FIFA 18",
-        "description": "Experience the excitement of football with stunning graphics and gameplay enhancements in FIFA 18.",
-        genres: ["sports", "simulation"],
-        "multi-combact":false,
-        "parts": 8,
-        "requirements": {
-            "cpu": "Intel Core i3-2100 or AMD Phenom II X4 965",
-            "ram": "8 GB RAM",
-            "gpu": "NVIDIA GTX 460 or AMD Radeon R7 260",
-            "storage": "50 GB available space"
-        },
-        "images": [
-            "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_EASportsFifa18_image1280w.jpg",
-            "https://www.jiomart.com/images/product/original/rvggle1l87/electronic-arts-sports-fifa-18-ps4-product-images-orvggle1l87-p604093135-1-202308251436.jpg?im=Resize=(1000,1000)",
-            "https://www.godisageek.com/wp-content/uploads/fifa-18-career-mode-liverpool.jpg"
-        ],
-        "downloadLinks": [
-            "https://linksshortner.xyz/664761/FIFA+18+-+Atom+Guy.part01.rar?hash=AgADDR",
-            "https://linksshortner.xyz/664756/FIFA+18+-+Atom+Guy.part02.rar?hash=AgADEB",
-            "https://linksshortner.xyz/664748/FIFA+18+-+Atom+Guy.part03.rar?hash=AgADGB",
-            "https://linksshortner.xyz/664759/FIFA+18+-+Atom+Guy.part04.rar?hash=AgADHB",
-            "https://linksshortner.xyz/664750/FIFA+18+-+Atom+Guy.part05.rar?hash=AgADIB",
-            "https://linksshortner.xyz/664752/FIFA+18+-+Atom+Guy.part06.rar?hash=AgADJB",
-            "https://linksshortner.xyz/664754/FIFA+18+-+Atom+Guy.part07.rar?hash=AgADMB",
-            "https://linksshortner.xyz/664758/FIFA+18+-+Atom+Guy.part08.rar?hash=AgADMh"
-        ],
-        tgLink: "https://t.me/atomguyfifa"
-    },
-    {
-        "id": 10,
-        "title": "Minecraft",
-        "description": "Build, explore, and survive in this blocky, pixelated world filled with endless possibilities.",
-        genres: ["sandbox", "survival", "adventure"],
-        "multi-combact":true,
-        "parts": 2,
-        "requirements": {
-            "cpu": "Intel Core i3-3210 or AMD A8-7600",
-            "ram": "4 GB RAM",
-            "gpu": "Intel HD Graphics 4000 or AMD Radeon R5",
-            "storage": "1 GB available space"
-        },
-        "images": [
-            "https://assets.nuuvem.com/image/upload/v1/products/62f3c54f65d8fa7046eea12e/sharing_images/vvmelr55khbxp3myxj46.jpg",
-            "https://cdn.britannica.com/62/200262-050-AFE1BDFF/Players-Minecraft-worlds-way-blocks-roaming-characters.jpg",
-            "https://www.merlinentertainments.biz/media/6803/images-courtesy-of-merlin-and-tm-mojang-ab-2.jpg?anchor=center&mode=crop&width=980&height=570&rnd=133763995550000000&format=webp"
-        ],
-        "downloadLinks": [
-            "https://eaglercraft.com/",
-            "https://telegram.me/+mxsNj0JNy4ozNTVl",
-        ],
-        tgLink: "https://telegram.me/+mxsNj0JNy4ozNTVl"
-    },
-    {
-        "id": 11,
-        "title": "Bully: Scholarship Edition",
-        "description": "Play as Jimmy Hopkins as you navigate the social hierarchy of Bullworth Academy in this action-adventure game filled with pranks and challenges.",
-        genres: ["action", "sandbox"],
-        "multi-combact":false,
-        "parts": 1,
-        "requirements": {
-            "cpu": "Intel Pentium 4 (3+ GHZ) / AMD Athlon 3000+",
-            "ram": "1 GB RAM",
-            "gpu": "NVIDIA 6800 or ATI Radeon X1300",
-            "storage": "4.7 GB available space"
-        },
-        "images": [
-            "https://crotorrents.com/wp-content/uploads/2017/04/download-6.jpg",
-            "https://thepcgames.net/wp-content/uploads/2018/04/Bully-Scholarship-Edition-PC-Game-Free-Download.jpg",
-            "https://i.ytimg.com/vi/BVSghGUqALI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgWShNMA8=&rs=AOn4CLAh4cpWTcXBL_6sOb04Frn-5bVBRg"
-        ],
-        "downloadLinks": [
-            "https://linksshortner.xyz/664662/Bully+-+Atom+Guy+Edition.rar?hash=AgADoR"
-        ],
-        tgLink: "https://t.me/atomguybully"
-    },
-    {
-        "id": 12,
-        "title": "Granny",
-        "description": "Survive and escape a creepy house while avoiding the wrath of Granny in this thrilling horror game.",
-        genres: ["horror", "survival"],
-        "multi-combact":false,
-        "parts": 1,
-        "requirements": {
-            "cpu": "Intel Core 2 Duo or equivalent",
-            "ram": "2 GB RAM",
-            "gpu": "Intel HD Graphics 4000",
-            "storage": "500 MB available space"
-        },
-        "images": [
-            "https://i.ytimg.com/vi/pURCRidtEZY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAeprzon9DQK_SNhrzFIn1WcrFgYw",
-            "https://i.ytimg.com/vi/S6l4nQrR2aE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB0JwshFAz-5Htq9HTD8DjMvCTBKQ",
-            "https://a.silvergames.com/screenshots/granny-horror/horror-game.jpg"
-        ],
-        "downloadLinks": [
-            "https://smgpo.sharemods.com/cgi-bin/dl.cgi/ntxubsz5vebqsg3ugrr7o5pgam6fs5arkec52xoberu7ikcoz6laxvq/Granny_1_-_Atom_Guy_Edition.zip"
-        ],
-        tgLink: "https://t.me/Atomguyofficial"
-    },
-    {
-        "id": 13,
-        "title": "Euro Truck Simulator 2 | ETS 2",
-        "description": "Experience the life of a truck driver as you deliver cargo across Europe in this realistic truck simulator.",
-        genres: ["simulation", "driving"],
-        "multi-combact":false,
-        "parts": 6,
-        "requirements": {
-            "cpu": "Dual core CPU 2.4 GHz",
-            "ram": "4 GB RAM",
-            "gpu": "GeForce GTS 450-class (Intel HD 4000)",
-            "storage": "3 GB available space"
-        },
-        "images": [
-            "https://infiniteczechgames.com/wp-content/uploads/2023/11/Euro-Truck-Simulator-2-cover.jpg",
-            "https://i.ytimg.com/vi/gtxWdNcRsqY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGEsgXShlMA8=&rs=AOn4CLBvQktvcNxaJeIcAnBfh7ybpknobQ",
-            "https://i.ytimg.com/vi/zUT0JsR5KYM/maxresdefault.jpg"
-        ],
-        "downloadLinks": [
-            "https://linksshortner.xyz/525622/Euro+Truck+Simulator+2+-+Atom+Guy.part1.rar?hash=AgAD7h",
-            "https://linksshortner.xyz/525615/Euro+Truck+Simulator+2+-+Atom+Guy.part2.rar?hash=AgAD9h",
-            "https://linksshortner.xyz/525624/Euro+Truck+Simulator+2+-+Atom+Guy.part3.rar?hash=AgAD_R",
-            "https://linksshortner.xyz/525611/Euro+Truck+Simulator+2+-+Atom+Guy.part4.rar?hash=AgADAh",
-            "https://linksshortner.xyz/525613/Euro+Truck+Simulator+2+-+Atom+Guy.part5.rar?hash=AgADBx",
-            "https://linksshortner.xyz/525617/Euro+Truck+Simulator+2+-+Atom+Guy.part6.rar?hash=AgADDR"
-        ],
-        tgLink: "https://t.me/atomguyets2"
+        "tgLink": "https://t.me/atomguynfs2005"
     },
     {
         "id": 14,
         "title": "BeamNG.drive",
         "description": "Experience realistic soft-body physics and open-world exploration with a variety of vehicles in this driving simulation.",
-        genres: ["simulation", "racing"],
-        "multi-combact":false,
+        "genres": ["simulation", "racing"],
+        "multi-combact": false,
         "parts": 13,
         "requirements": {
             "cpu": "AMD FX-6300 or Intel i5-4430",
@@ -426,57 +473,61 @@ const gameData = [
             "https://linksshortner.xyz/664709/BeamNG.drive+-+Atom+Guy.part12.rar?hash=AgADbx",
             "https://linksshortner.xyz/664712/BeamNG.drive+-+Atom+Guy.part13.rar?hash=AgADcB"
         ],
-        tgLink: "https://t.me/atomguybeamng"
+        "tgLink": "https://t.me/atomguybeamng"
     },
     {
-        "id": 15,
-        "title": "Bus Simulator 21",
-        "description": "Take control of your bus-driving career in an expansive open world with realistic routes, dynamic traffic, and a variety of buses to master.",
-        genres: ["simulation", "driving"],
-        "multi-combact":false,
+        "id": 9,
+        "title": "FIFA 18",
+        "description": "Experience the excitement of football with stunning graphics and gameplay enhancements in FIFA 18.",
+        "genres": ["sports", "simulation"],
+        "multi-combact": false,
+        "parts": 8,
+        "requirements": {
+            "cpu": "Intel Core i3-2100 or AMD Phenom II X4 965",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GTX 460 or AMD Radeon R7 260",
+            "storage": "50 GB available space"
+        },
+        "images": [
+            "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_EASportsFifa18_image1280w.jpg",
+            "https://www.jiomart.com/images/product/original/rvggle1l87/electronic-arts-sports-fifa-18-ps4-product-images-orvggle1l87-p604093135-1-202308251436.jpg?im=Resize=(1000,1000)",
+            "https://www.godisageek.com/wp-content/uploads/fifa-18-career-mode-liverpool.jpg"
+        ],
+        "downloadLinks": [
+            "https://linksshortner.xyz/664761/FIFA+18+-+Atom+Guy.part01.rar?hash=AgADDR",
+            "https://linksshortner.xyz/664756/FIFA+18+-+Atom+Guy.part02.rar?hash=AgADEB",
+            "https://linksshortner.xyz/664748/FIFA+18+-+Atom+Guy.part03.rar?hash=AgADGB",
+            "https://linksshortner.xyz/664759/FIFA+18+-+Atom+Guy.part04.rar?hash=AgADHB",
+            "https://linksshortner.xyz/664750/FIFA+18+-+Atom+Guy.part05.rar?hash=AgADIB",
+            "https://linksshortner.xyz/664752/FIFA+18+-+Atom+Guy.part06.rar?hash=AgADJB",
+            "https://linksshortner.xyz/664754/FIFA+18+-+Atom+Guy.part07.rar?hash=AgADMB",
+            "https://linksshortner.xyz/664758/FIFA+18+-+Atom+Guy.part08.rar?hash=AgADMh"
+        ],
+        "tgLink": "https://t.me/atomguyfifa"
+    },
+    {
+        "id": 10,
+        "title": "Minecraft",
+        "description": "Build, explore, and survive in this blocky, pixelated world filled with endless possibilities.",
+        "genres": ["sandbox", "survival", "adventure"],
+        "multi-combact": true,
         "parts": 2,
         "requirements": {
-            "cpu": "Intel Core i5-4440 or AMD FX-8370",
-            "ram": "8 GB RAM",
-            "gpu": "NVIDIA GeForce GTX 970 or AMD Radeon RX 480",
-            "storage": "18 GB available space"
-        },
-        "images": [
-            "https://xxboxnews.blob.core.windows.net/prod/sites/2/2020/08/Bus21-Hero-Image.jpg",
-            "https://m.media-amazon.com/images/I/71X2z4Lx2FL.jpg",
-            "https://www.bussimulator.com/img/news/0005/slider5-03.jpg"
-        ],
-
-        "downloadLinks": [
-            "https://www.tgxdl2.workers.dev/0:/dl/125720?hash=AgAD7R",
-            "https://www.tgxdl2.workers.dev/0:/dl/125721?hash=AgAD7h"
-        ],
-        tgLink: "https://t.me/atomguybus21"
-    },
-    {
-        "id": 16,
-        "title": "Sleeping Dogs: Definitive Edition",
-        "description": "Step into the shoes of Wei Shen, an undercover cop infiltrating the dangerous Hong Kong Triads in this action-packed open-world adventure.",
-        "genres": ["action", "open-world", "crime"],
-        "category": "Action",
-        "parts": 3,
-        "multi-combat": false,
-        "requirements": {
-            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.7 GHz",
+            "cpu": "Intel Core i3-3210 or AMD A8-7600",
             "ram": "4 GB RAM",
-            "gpu": "NVIDIA GeForce 8800 GT / ATI Radeon 3870",
-            "storage": "20 GB available space"
+            "gpu": "Intel HD Graphics 4000 or AMD Radeon R5",
+            "storage": "1 GB available space"
         },
         "images": [
-            "https://www.slashgear.com/img/gallery/sleeping-dogs-definitive-edition-review/intro-import.jpg",
-            "https://cdn.akamai.steamstatic.com/steam/apps/307690/ss_5d2c8a98224d16b9d5c6deeb97eb3f67a2d1c593.1920x1080.jpg",
-            "https://www.giantbomb.com/a/uploads/original/0/1942/2725746-sleeping-dogs-definitive-edition-gameplay.jpg"
+            "https://assets.nuuvem.com/image/upload/v1/products/62f3c54f65d8fa7046eea12e/sharing_images/vvmelr55khbxp3myxj46.jpg",
+            "https://cdn.britannica.com/62/200262-050-AFE1BDFF/Players-Minecraft-worlds-way-blocks-roaming-characters.jpg",
+            "https://www.merlinentertainments.biz/media/6803/images-courtesy-of-merlin-and-tm-mojang-ab-2.jpg?anchor=center&mode=crop&width=980&height=570&rnd=133763995550000000&format=webp"
         ],
         "downloadLinks": [
-            "https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/",
-            "https://www.gog.com/game/sleeping_dogs_definitive_edition"
+            "https://eaglercraft.com/",
+            "https://telegram.me/+mxsNj0JNy4ozNTVl",
         ],
-        "tgLink": "https://t.me/atomguysleepingdogs"
+        "tgLink": "https://telegram.me/+mxsNj0JNy4ozNTVl"
     },
     {
         "id": 17,
@@ -494,8 +545,8 @@ const gameData = [
         },
         "images": [
             "https://image.api.playstation.com/vulcan/ap/rnd/202105/0612/cqADFuCgu00EQKQNtpWWSa2q.jpg",
-            "https://www.focus-entmt.com/uploads/game-media/2021/12/snowrunner-1.jpg",
-            "https://cdn.cloudflare.steamstatic.com/steam/apps/1465360/header.jpg"
+            "https://static.gameloop.com/img/5de8e363835f632e3cd652af6b003918.jpg?imageMogr2/thumbnail/undefinedx266/format/webp",
+            "https://preview.redd.it/lets-design-a-game-where-it-takes-you-30-minutes-to-get-to-v0-gqvg10wrqc9c1.jpeg?auto=webp&s=a0f5ca82a76764b92e1a492ef11d49ef626d0b60"
         ],
         "downloadLinks": [
             "https://store.steampowered.com/app/1465360/SnowRunner/",
@@ -504,8 +555,107 @@ const gameData = [
         "tgLink": "https://telegram.me/+GSHo_b6gt2Y3MTFl"
     },
     {
+        "id": 11,
+        "title": "Bully: Scholarship Edition",
+        "description": "Play as Jimmy Hopkins as you navigate the social hierarchy of Bullworth Academy in this action-adventure game filled with pranks and challenges.",
+        "genres": ["action", "sandbox"],
+        "multi-combact": false,
+        "parts": 1,
+        "requirements": {
+            "cpu": "Intel Pentium 4 (3+ GHZ) / AMD Athlon 3000+",
+            "ram": "1 GB RAM",
+            "gpu": "NVIDIA 6800 or ATI Radeon X1300",
+            "storage": "4.7 GB available space"
+        },
+        "images": [
+            "https://crotorrents.com/wp-content/uploads/2017/04/download-6.jpg",
+            "https://thepcgames.net/wp-content/uploads/2018/04/Bully-Scholarship-Edition-PC-Game-Free-Download.jpg",
+            "https://i.ytimg.com/vi/BVSghGUqALI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgWShNMA8=&rs=AOn4CLAh4cpWTcXBL_6sOb04Frn-5bVBRg"
+        ],
+        "downloadLinks": [
+            "https://linksshortner.xyz/664662/Bully+-+Atom+Guy+Edition.rar?hash=AgADoR"
+        ],
+        "tgLink": "https://t.me/atomguybully"
+    },
+    {
+        "id": 12,
+        "title": "Granny",
+        "description": "Survive and escape a creepy house while avoiding the wrath of Granny in this thrilling horror game.",
+        "genres": ["horror", "survival"],
+        "multi-combact": false,
+        "parts": 1,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo or equivalent",
+            "ram": "2 GB RAM",
+            "gpu": "Intel HD Graphics 4000",
+            "storage": "500 MB available space"
+        },
+        "images": [
+            "https://i.ytimg.com/vi/pURCRidtEZY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAeprzon9DQK_SNhrzFIn1WcrFgYw",
+            "https://i.ytimg.com/vi/S6l4nQrR2aE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB0JwshFAz-5Htq9HTD8DjMvCTBKQ",
+            "https://a.silvergames.com/screenshots/granny-horror/horror-game.jpg"
+        ],
+        "downloadLinks": [
+            "https://sharemods.com/imuklszj0h6x/Granny_1_-_Atom_Guy_Edition.zip.html"
+        ],
+        "tgLink": "https://t.me/Atomguyofficial"
+    },
+    {
+        "id": 13,
+        "title": "Euro Truck Simulator 2 | ETS 2",
+        "description": "Experience the life of a truck driver as you deliver cargo across Europe in this realistic truck simulator.",
+        "genres": ["simulation", "driving"],
+        "multi-combact": false,
+        "parts": 6,
+        "requirements": {
+            "cpu": "Dual core CPU 2.4 GHz",
+            "ram": "4 GB RAM",
+            "gpu": "GeForce GTS 450-class (Intel HD 4000)",
+            "storage": "3 GB available space"
+        },
+        "images": [
+            "https://infiniteczechgames.com/wp-content/uploads/2023/11/Euro-Truck-Simulator-2-cover.jpg",
+            "https://i.ytimg.com/vi/gtxWdNcRsqY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGEsgXShlMA8=&rs=AOn4CLBvQktvcNxaJeIcAnBfh7ybpknobQ",
+            "https://i.ytimg.com/vi/zUT0JsR5KYM/maxresdefault.jpg"
+        ],
+        "downloadLinks": [
+            "https://linksshortner.xyz/525622/Euro+Truck+Simulator+2+-+Atom+Guy.part1.rar?hash=AgAD7h",
+            "https://linksshortner.xyz/525615/Euro+Truck+Simulator+2+-+Atom+Guy.part2.rar?hash=AgAD9h",
+            "https://linksshortner.xyz/525624/Euro+Truck+Simulator+2+-+Atom+Guy.part3.rar?hash=AgAD_R",
+            "https://linksshortner.xyz/525611/Euro+Truck+Simulator+2+-+Atom+Guy.part4.rar?hash=AgADAh",
+            "https://linksshortner.xyz/525613/Euro+Truck+Simulator+2+-+Atom+Guy.part5.rar?hash=AgADBx",
+            "https://linksshortner.xyz/525617/Euro+Truck+Simulator+2+-+Atom+Guy.part6.rar?hash=AgADDR"
+        ],
+        "tgLink": "https://t.me/atomguyets2"
+    },
+    {
+        "id": 15,
+        "title": "Bus Simulator 21",
+        "description": "Take control of your bus-driving career in an expansive open world with realistic routes, dynamic traffic, and a variety of buses to master.",
+        "genres": ["simulation", "driving"],
+        "multi-combact": false,
+        "parts": 2,
+        "requirements": {
+            "cpu": "Intel Core i5-4440 or AMD FX-8370",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 970 or AMD Radeon RX 480",
+            "storage": "18 GB available space"
+        },
+        "images": [
+            "https://xxboxnews.blob.core.windows.net/prod/sites/2/2020/08/Bus21-Hero-Image.jpg",
+            "https://m.media-amazon.com/images/I/71X2z4Lx2FL.jpg",
+            "https://www.bussimulator.com/img/news/0005/slider5-03.jpg"
+        ],
+
+        "downloadLinks": [
+            "https://www.tgxdl2.workers.dev/0:/dl/125720?hash=AgAD7R",
+            "https://www.tgxdl2.workers.dev/0:/dl/125721?hash=AgAD7h"
+        ],
+        "tgLink": "https://t.me/atomguybus21"
+    },
+    {
         "id": 18,
-        "title": "Farming Simulator",
+        "title": "Farming Simulator 22",
         "description": "Live the life of a modern farmer, cultivating fields, raising livestock, and managing your farm in this realistic agricultural simulation.",
         "genres": ["simulation", "farming", "strategy"],
         "category": "Simulation",
@@ -519,14 +669,39 @@ const gameData = [
         },
         "images": [
             "https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/c479-farming_simulator_22.jpeg.webp",
-            "https://www.giants-software.com/img/screens/fs22/fs22-01.jpg",
-            "https://www.farming-simulator.com/images/products/800/fs22.jpg"
+            "https://www.osvnews.com/wp-content/uploads/2023/03/20230324T1500-VIDEOGAME-REVIEW-FARMING-SIMULATOR-22-1757515.jpg",
+            "https://i.ytimg.com/vi/eszqWN9OrNo/maxresdefault.jpg"
         ],
         "downloadLinks": [
             "https://store.steampowered.com/app/1248130/Farming_Simulator_22/",
             "https://www.farming-simulator.com/"
         ],
         "tgLink": "https://telegram.me/+qR4zCFgv9io3MGNl"
+    },
+    {
+        "id": 21,
+        "title": "Ranch Simulator",
+        "description": "Build, farm, and hunt as you restore your family ranch in this realistic multiplayer simulation game.",
+        "genres": ["simulation", "multiplayer", "farming"],
+        "category": "Simulation",
+        "parts": 1,
+        "multi-combat": false,
+        "requirements": {
+            "cpu": "Intel Core i5-3570K / AMD FX-8310",
+            "ram": "8 GB RAM",
+            "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon R9 270",
+            "storage": "15 GB available space"
+        },
+        "images": [
+            "https://cdn2.unrealengine.com/ranch-simulator-1920x1080-2c438975e7b2.png",
+            "https://gofrag.ru/images/89/ranch_simulator-4.jpg",
+            "https://cdn2.unrealengine.com/ranch-simulator-chicken-pen-1920x1080-87618f3f2d3a.jpg"
+        ],
+        "downloadLinks": [
+            "https://store.steampowered.com/app/1119730/Ranch_Simulator/",
+            "https://www.epicgames.com/store/en-US/p/ranch-simulator"
+        ],
+        "tgLink": "https://telegram.me/+twBtf-bpNO9kNTM1"
     },
     {
         "id": 19,
@@ -544,8 +719,8 @@ const gameData = [
         },
         "images": [
             "https://img.opencritic.com/game/2848/o/Jo0HjaKf.jpg",
-            "https://www.mobygames.com/images/shots/l/885309-inside-playstation-4-screenshot-standing-in-the-rain.jpg",
-            "https://cdn.cloudflare.steamstatic.com/steam/apps/304430/header.jpg"
+            "https://c4.wallpaperflare.com/wallpaper/521/840/40/video-game-getting-over-it-with-bennett-foddy-wallpaper-preview.jpg",
+            "https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/6731321/InsideCity6.0.jpg"
         ],
         "downloadLinks": [
             "https://store.steampowered.com/app/304430/INSIDE/",
@@ -569,8 +744,8 @@ const gameData = [
         },
         "images": [
             "https://noodlecake.com/wp-content/uploads/2018/04/feature-GettingOverIt-1280x720.jpg",
-            "https://cdn.akamai.steamstatic.com/steam/apps/240720/header.jpg",
-            "https://gamingcentral.in/wp-content/uploads/2017/12/Getting-Over-It-Gameplay.jpg"
+            "https://i0.wp.com/waytoomany.games/wp-content/uploads/2018/01/20180112012402_1.jpg?fit=1920%2C1080&ssl=1",
+            "https://c4.wallpaperflare.com/wallpaper/521/840/40/video-game-getting-over-it-with-bennett-foddy-wallpaper-preview.jpg"
         ],
         "downloadLinks": [
             "https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/",
@@ -578,106 +753,6 @@ const gameData = [
         ],
         "tgLink": "https://sharemods.com/wa2lhxuraep9/Getting_Over_It_-_Atom_Guy.rar.html"
     },
-    {
-        "id": 21,
-        "title": "Ranch Simulator",
-        "description": "Build, farm, and hunt as you restore your family ranch in this realistic multiplayer simulation game.",
-        "genres": ["simulation", "multiplayer", "farming"],
-        "category": "Simulation",
-        "parts": 1,
-        "multi-combat": false,
-        "requirements": {
-            "cpu": "Intel Core i5-3570K / AMD FX-8310",
-            "ram": "8 GB RAM",
-            "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon R9 270",
-            "storage": "15 GB available space"
-        },
-        "images": [
-            "https://cdn2.unrealengine.com/ranch-simulator-1920x1080-2c438975e7b2.png",
-            "https://www.focus-entmt.com/uploads/game-media/2021/12/ranch-simulator-1.jpg",
-            "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/ss_a0d6f0f4fd62decc82274f47e1e6eb90a157e582.1920x1080.jpg"
-        ],
-        "downloadLinks": [
-            "https://store.steampowered.com/app/1119730/Ranch_Simulator/",
-            "https://www.epicgames.com/store/en-US/p/ranch-simulator"
-        ],
-        "tgLink": "https://telegram.me/+twBtf-bpNO9kNTM1"
-    },
-    {
-        "id": 22,
-        "title": "Need for Speed: Most Wanted (2012)",
-        "description": "Race, evade the cops, and take down rivals in this high-speed open-world racing game, where being Most Wanted is the ultimate goal.",
-        "genres": ["racing", "open-world", "action"],
-        "category": "Racing",
-        "parts": 2,
-        "multi-combat": false,
-        "requirements": {
-            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.6 GHz",
-            "ram": "4 GB RAM",
-            "gpu": "NVIDIA GeForce 8800 GT / AMD Radeon HD 3870",
-            "storage": "20 GB available space"
-        },
-        "images": [
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP7xfNYerHqYtk4sAPhR5sH_Le0o6WNLyVrve-hhFNYPwgavn87Cz95JrIZ42KR0pD892VaV5g5eCF60eNw5aBiTRJWuSJ0ItVyD-iO4MzIxV002ea3pk5JyGy8DnwJV-QvgGUj4Oww_CD/s1600/nfsmw.jpg",
-            "https://cdn.akamai.steamstatic.com/steam/apps/1262540/ss_0a6cd9f60a1bc3a8cb5c5983b7db79947f5d0e4c.1920x1080.jpg",
-            "https://assets-prd.ignimgs.com/2021/08/06/nfsmw2012-1628277564692.jpg"
-        ],
-        "downloadLinks": [
-            "https://store.steampowered.com/app/1262540/Need_for_Speed_Most_Wanted/",
-            "https://www.ea.com/games/need-for-speed/need-for-speed-most-wanted"
-        ],
-        "tgLink": "https://t.me/atomguynfs2012"
-    },
-    {
-        "id": 23,
-        "title": "Grand Theft Auto: Vice City Nextgen Edition",
-        "description": "Experience the classic open-world crime saga of Tommy Vercetti in a fully remastered next-gen edition with improved graphics, modernized gameplay, and enhanced lighting.",
-        "genres": ["action", "sandbox", "crime"],
-        "category": "Action",
-        "parts": 4,
-        "multi-combat": false,
-        "requirements": {
-            "cpu": "Intel Core i3-6100 / AMD FX-6300",
-            "ram": "8 GB RAM",
-            "gpu": "NVIDIA GeForce GTX 1050 / AMD Radeon RX 560",
-            "storage": "15 GB available space"
-        },
-        "images": [
-            "https://preview.redd.it/gta-vice-city-next-gen-was-officially-shut-down-v0-b1eonzhgpwge1.jpeg?auto=webp&s=43ac74cabcd31a1343f5b76a4bc9e37ea591e0f2",
-            "https://upload.wikimedia.org/wikipedia/en/a/a3/Grand_Theft_Auto_Vice_City_cover.jpg",
-            "https://i.ytimg.com/vi/pe6mwx_jD1s/maxresdefault.jpg"
-        ],
-        "downloadLinks": [
-            "https://store.rockstargames.com/game/buy-grand-theft-auto-vice-city-the-definitive-edition",
-            "https://www.gog.com/game/grand_theft_auto_vice_city"
-        ],
-        "tgLink": "https://telegram.me/+I3_4ye95buk4Y2U9"
-    },
-    {
-        "id": 24,
-        "title": "Grand Theft Auto: Vice City Deluxe Edition",
-        "description": "An enhanced modded edition of GTA Vice City, featuring upgraded vehicles, improved textures, realistic lighting, and additional missions to elevate the classic experience.",
-        "genres": ["action", "sandbox", "crime", "modded"],
-        "category": "Action",
-        "parts": 1,
-        "multi-combat": false,
-        "requirements": {
-            "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
-            "ram": "4 GB RAM",
-            "gpu": "NVIDIA GeForce 9800 GT / AMD Radeon HD 4870",
-            "storage": "10 GB available space"
-        },
-        "images": [
-            "https://i.ytimg.com/vi/uM2qFf_ZaWI/maxresdefault.jpg",
-            "https://i.ytimg.com/vi/S1T0zaFs0r8/maxresdefault.jpg",
-            "https://www.gtaall.com/images/editor/2023-01/1674254645_gta-vice-city-deluxe-mod.jpg"
-        ],
-        "downloadLinks": [
-            "https://www.moddb.com/mods/vice-city-deluxe/downloads",
-            "https://www.gtainside.com/en/vicecity/mods/vice-city-deluxe"
-        ],
-        "tgLink": "https://sharemods.com/9tqwtcy6ltg5/GTA_VC_DELUX_-_ATOM_GUY.rar.html"
-    }
 ];
 
 // Current state
@@ -1122,13 +1197,13 @@ function closePopup() {
 // Download functionality
 function initiateDownload(gameTitle, partNumber) {
     const partLink = currentGame.downloadLinks[partNumber - 1];
-    const tgLink = currentGame.tgLink || 'https://t.me/exampleChannel';
+    const tgLink = currentGame.tgLink || 'https://t.me/Atomguygg';
     if (partLink) {
         // Start the download process
         const anchor = document.createElement('a');
         anchor.href = partLink;
-        anchor.target = "_blank"; // Open the link in a new tab
-        anchor.download = `${gameTitle} - Part ${partNumber}`; // Optional for direct download
+        anchor.target = "_blank";
+        anchor.download = `${gameTitle} - Part ${partNumber}`;
         document.body.appendChild(anchor);
         anchor.click();
         document.body.removeChild(anchor);
