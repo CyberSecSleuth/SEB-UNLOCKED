@@ -4,7 +4,7 @@ const gameData = [
         "id": 1,
         "title": "Grand Theft Auto V | GTA V",
         "description": "Explore the massive open world of Los Santos and Blaine County with three playable characters: Michael, Franklin, and Trevor. Engage in heists and chaos in this critically acclaimed action game.",
-        genres: ["action", "sandbox", "open-world"],
+        "genres": ["action", "sandbox", "open-world"],
         "parts": 22,
         "multi-combact":false,
         "requirements": {
@@ -44,13 +44,13 @@ const gameData = [
             "https://linksshortner.xyz/525735/GTA+V+-+ATOM+GUY+EDITION.part21.rar?hash=AgADuh",
             "https://linksshortner.xyz/525737/GTA+V+-+ATOM+GUY+EDITION.part22.rar?hash=AgADvx"
         ],
-        tgLink: "https://t.me/atomguygta5"
+        "tgLink": "https://t.me/atomguygta5"
     },
     {
         "id": 2,
         "title": "Grand Theft Auto: San Andreas | GTA San Andreas",
         "description": "Join Carl \" CJ\" Johnson as he returns to Grove Street to restore his family and gang while navigating the sprawling state of San Andreas.",
-        genres: ["action", "sandbox", "open-world"],
+        "genres": ["action", "sandbox", "open-world"],
         "category": "Action",
         "parts": 2,
         "multi-combact":true,
@@ -69,13 +69,13 @@ const gameData = [
             "https://linksshortner.xyz/525692/LQ+GTA+SA+ATOM+GUY.rar?hash=AgAD_x",
             "https://linksshortner.xyz/525749/GTA+SA+ANDROID+ATOM+GUY+EDITION.zip?hash=AgAD8Q"
         ],
-        tgLink: "https://t.me/atomguygg"
+        "tgLink": "https://t.me/atomguygg"
     },
     {
         "id": 3,
         "title": "Grand Theft Auto IV | GTA IV",
         "description": "Experience Niko Bellic's story as he arrives in Liberty City to pursue the American Dream while dealing with his criminal past.",
-        genres: ["action", "sandbox", "open-world"],
+        "genres": ["action", "sandbox", "open-world"],
         "parts": 7,
         "multi-combact":false,
         "requirements": {
@@ -98,13 +98,13 @@ const gameData = [
             "https://linksshortner.xyz/527908/GTA+IV+-+ATOM+GUY+EDITION.part06.rar?hash=AgADeB",
             "https://linksshortner.xyz/527910/GTA+IV+-+ATOM+GUY+EDITION.part07.rar?hash=AgADih"
         ],
-        tgLink: "https://t.me/atomguygta4"
+        "tgLink": "https://t.me/atomguygta4"
     },
     {
         "id": 4,
         "title": "Grand Theft Auto: Vice City | GTA Vice City",
         "description": "Explore the vibrant streets of Vice City in the 1980s. Experience the rise of Tommy Vercetti as he builds his criminal empire in this neon-lit open-world game.",
-        genres: ["action", "sandbox", "open-world"],
+        "genres": ["action", "sandbox", "open-world"],
         "multi-combact":true,
         "parts": 2,
         "requirements": {
@@ -122,7 +122,7 @@ const gameData = [
             "https://linksshortner.xyz/525690/LQ+GTA+VC+ATOM+GUY.rar?hash=AgADCR",
             "https://linksshortner.xyz/525747/GTA+VC+ANDROID+ATOM+GUY+EDITION.zip?hash=AgADtR"
         ],
-        tgLink: "https://t.me/atomguygg"
+        "tgLink": "https://t.me/atomguygg"
     },
     {
         "id": 23,
@@ -178,7 +178,7 @@ const gameData = [
         "id": 5,
         "title": "Grand Theft Auto III | GTA III",
         "description": "Step into Liberty City, a gritty metropolis filled with crime and chaos. Follow Claude's journey in this open-world action-adventure game that revolutionized 3D gameplay.",
-        genres: ["action", "sandbox", "open-world"],
+        "genres": ["action", "sandbox", "open-world"],
         "multi-combact":false,
         "parts": 1,
         "requirements": {
@@ -195,7 +195,7 @@ const gameData = [
         "downloadLinks": [
             "https://linksshortner.xyz/525688/LQ+GTA+3+ATOM+GUY.rar?hash=AgADDR"
         ],
-        tgLink: "https://t.me/atomguygg"
+        "tgLink": "https://t.me/atomguygg"
     },
     {
         "id": 27,
@@ -276,7 +276,7 @@ const gameData = [
         "id": 6,
         "title": "Red Dead Redemption 2 | RDR 2",
         "description": "Immerse yourself in the story of Arthur Morgan and the Van der Linde gang as they struggle to survive in America's unforgiving heartland.",
-        genres: ["sandbox", "survival", "adventure"],
+        "genres": ["sandbox", "survival", "adventure"],
         "multi-combact":false,
         "parts": 28,
         "requirements": {
@@ -320,7 +320,7 @@ const gameData = [
             "https://linksshortner.xyz/664504/RED+DEAD+REDEMPTION+2+-+ATOM+GUY.part27.rar?hash=AgADgQ",
             "https://linksshortner.xyz/664509/RED+DEAD+REDEMPTION+2+-+ATOM+GUY.part28.rar?hash=AgADgg"
         ],
-        tgLink: "https://t.me/atomguyrdr2"
+        "tgLink": "https://t.me/atomguyrdr2"
     },
     {
         "id": 25,
@@ -752,6 +752,33 @@ const gameData = [
             "https://www.humblebundle.com/store/getting-over-it-with-bennett-foddy"
         ],
         "tgLink": "https://sharemods.com/wa2lhxuraep9/Getting_Over_It_-_Atom_Guy.rar.html"
+    },
+    {
+        "id": 28,
+        "title": "Batman: Arkham Asylum",
+        "description": "Step into the shadows as the Dark Knight in Batman: Arkham Asylum. Trapped with Gotham’s most dangerous criminals, use stealth, combat, and detective skills to restore order.",
+        "genres": ["action", "adventure", "stealth"],
+        "parts": 5,
+        "multi-combact": false,
+        "requirements": {
+            "cpu": "Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 4800+",
+            "ram": "2 GB RAM",
+            "gpu": "NVIDIA GeForce 8800 series or ATI Radeon HD 3800",
+            "storage": "9 GB available space"
+        },
+        "images": [
+            "https://images.gog-statics.com/de60559557d039d9375b617e83df1eba1bd1d04ba8dffef45f36f3a6b91f5e37_product_card_v2_mobile_slider_639.jpg",
+            "https://m.media-amazon.com/images/I/81ZOuGsERvL.jpg",
+            "https://thesilverscreener.wordpress.com/wp-content/uploads/2013/10/batman-arkham-asylum-joker_transport1.jpg"
+        ],
+        "downloadLinks": [
+            "https://linksshortner.xyz/528001/Batman-Arkham-Asylum.part01.rar?hash=AgADba",
+            "https://linksshortner.xyz/528002/Batman-Arkham-Asylum.part02.rar?hash=AgADbc",
+            "https://linksshortner.xyz/528003/Batman-Arkham-Asylum.part03.rar?hash=AgADbd",
+            "https://linksshortner.xyz/528004/Batman-Arkham-Asylum.part04.rar?hash=AgADbe",
+            "https://linksshortner.xyz/528005/Batman-Arkham-Asylum.part05.rar?hash=AgADbf"
+        ],
+        "tgLink": "https://t.me/atomguybatman"
     },
 ];
 
