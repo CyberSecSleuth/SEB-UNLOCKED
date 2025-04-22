@@ -211,7 +211,7 @@ header {
     color: #fff;
     font-weight: bold;
     transition: all 0.3s ease;
-    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 .download-btn:hover {
